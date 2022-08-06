@@ -1,0 +1,381 @@
+.body{ 
+    background-color: #fdfcf5;
+}
+.ind-head{
+    background-color: #fffdf5;
+    margin: 0 auto;
+    width: 100%;
+    padding: 26px 45px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+.ind-head ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-basis: 65%;
+    align-items: center;
+    margin-top: -20px;
+}
+.enroll{
+    display: flex;
+    align-items: center;
+}
+.enroll img{
+    background-color: #E7332B;
+    border-radius: 50%;
+    padding: 10px;
+    height: 75px;
+    width: 75px;
+    z-index: 1;
+}
+.p{
+    background-color: #E7332B;
+    color: white;
+    font-size: 1rem;
+    margin-left: -20px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.m{
+    display: flex;
+    background-color: #fefefb;
+}
+.m-icon{
+    margin-top: 70px;
+    overflow: hidden;
+    flex-basis: 40%;
+}
+.m-icon img{
+    width: 100%;
+}
+.m-content{
+    margin-top: 80px;
+    flex-basis: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.l{
+    position: relative;
+
+}
+.l img{
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+}
+.m-h{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+}
+.m-cn{
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    line-height: 3rem;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.m-b{
+    position: relative;
+    margin-top: 20px;
+}
+.p1{
+    position: absolute;
+    width: 50%;
+    bottom: -40px;
+    left: -140px;
+}
+.p2{
+    position: absolute;
+    width: 50%;
+    bottom: -70px;
+    right: -20px;
+}
+.about{
+    margin: 100px auto 20px;
+    padding-top: 40px ;
+    padding-bottom: 40px ;
+    display: flex;
+    border-top: 1px solid rgb(215, 213, 213);
+    border-bottom: 1px solid rgb(215, 213, 213);
+    width: 90vw;
+}
+.about-1{
+    flex-basis: 30%;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 700;
+}
+.about-2{
+    flex-basis: 20%;
+    flex-grow: 1;
+    width: 20%;
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.about-2 a{
+    text-decoration: underline;
+    font-size: 1.4rem;
+    color: rgb(116, 244, 69);
+}
+.about > .img{
+    flex-basis: 40%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.img > img{
+    margin-top: -50px;
+}
+.why{
+    width: 92%;
+    margin: 50px auto;
+}
+.why-i{
+    display: flex;
+    width: 35%;
+    height: 80px;
+    justify-content: flex-end;
+    /* background-color: #E7332B; */
+}
+.why-top > p{
+    font-size: 1.4rem;
+    font-weight: 600;
+    word-spacing: 4px;
+}
+.why-c{
+    display: flex;
+}
+.why-c p{
+    font-size: 2.3rem;
+    color: black;
+    flex-basis: 60%;
+    font-weight: 700;
+}
+.why-c div{
+    display: flex;
+    justify-content: center;
+    flex-basis: 40%;
+}
+.why-c div > img{
+    height: 80%;
+}
+.w-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 92%;
+    margin: 30px auto;
+    background: linear-gradient(180deg,rgba(255,244,240,0),#fff4f0 17.19%,#fff4f0 84.37%,rgba(255,244,240,0))!important;
+}
+#c-red{
+    background-color: #E7332B;
+
+}
+.c-head{
+    background-color: white;
+    width: 30%;
+    padding: 60px 40px;
+    margin: 30px auto;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 11px 22px rgba(163, 31, 10, 0.18);
+}
+.c-head:hover{
+    position: relative;
+    top: -30px;
+    transition: .3s ease-in-out;
+}
+.col-1{
+    border: 35px solid white;
+}
+.col-2{
+    border: 35px solid rgb(241, 222, 14);
+}
+.col-3{
+    border: 35px solid rgb(19, 167, 24);
+}
+.col-4{
+    border: 35px solid rgb(241, 93, 224);
+}
+.col-5{
+    border: 35px solid rgb(240, 166, 29);
+}
+.col-6{
+    border: 35px solid rgb(53, 94, 182);
+}
+.circle{
+    position: absolute;
+    top: -80px;
+    right: -90px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.count{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+.bl{
+    color: white;
+}
+.content .title{
+    margin-top: 40px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.content .para{
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+.help-con{
+    background-color: #E7332B;
+}
+.help-wrap{
+    width: 90%;
+    margin: 100px auto 10px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+}
+.help{
+    width: 40%;
+    margin-right: 10px;
+}
+.h-i{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+.h-head{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.h-title{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.h-pa{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.help-img{
+    width: 60%;
+}
+.help-img img{
+    width: 90%;
+}
+.h-btn{
+    color: #E7332B;
+    background-color: white;
+    padding: 10px 35px;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 30px;
+    width: fit-content;
+    text-align: center;
+}
+.h-b{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+.h-b button{
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h-b button span{
+    font-size: 1.1rem;
+    color: white;
+}
+.h-b button img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.scope{
+    width: 92%;
+    margin: 80px auto;
+}
+.scope-h{
+    width: 50%;
+}
+.scope-head{
+    color: #E7332B;
+    font-size: 1.2rem;
+    font-size: 500;
+}
+.scope-con{
+    color: black;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+.scope-i{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.scope-i img{
+    height: 10%;
+    width: 10%;
+}
+.scope-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.wr{
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 20px; box-shadow: 0px 11px 22px rgba(136, 129, 129, 0.18);
+}
+.wr h1{
+    margin: 20px auto;
+}
+.wr div{
+    display: flex;
+
+}
+.wr div img{
+    padding-right: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    height: 30%;
+}
+.wr p{
+    margin: 20px auto ;
+}
+.s{
+    width: fit-content;
+    margin: 5px auto;
+}
