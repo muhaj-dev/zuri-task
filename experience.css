@@ -81,11 +81,11 @@
 .btn-contain{
     margin-top: 30px;
     display: flex;
-    width: 450px;
+    width: 90vw;
     justify-content: space-between;
 }
 .indu{
-    width: 190px;
+    width: fit-content;
     border-bottom-right-radius: 10px;
     text-align: center;
     box-shadow: 0 2px 5px 0 grey;
