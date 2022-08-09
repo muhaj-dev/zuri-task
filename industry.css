@@ -636,10 +636,11 @@
     .enroll div{
         background-color: #E7332B;
         border-radius: 50%;
-        width: 4.5rem;
-        height: 4.5rem;
         padding: 10px;
         z-index: 1;
+    }
+    .enroll p{
+        padding: 6px 30px;
     }
     .m{
         flex-direction: column;
