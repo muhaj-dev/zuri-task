@@ -17,7 +17,7 @@
     list-style-type: none;
     flex-basis: 65%;
     align-items: center;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 .enroll{
     display: flex;
@@ -352,7 +352,7 @@
     font-size: 500;
 }
 .scope-con{
-    color: black;
+    color: rgb(70, 69, 69);
     font-size: 2.3rem;
     font-weight: 700;
 }
@@ -847,4 +847,69 @@
         width: 70%;
     }
     
+}
+
+@media screen and (max-width: 769px) {
+    .ind-head{
+        padding: 25px 30px;
+    }
+    .head-logo{
+        width: 40%;
+    }
+    .head-logo img{
+        width: 100%;
+    }
+    .enroll div{
+        padding: 1px;
+        width: fit-content;
+        z-index: 1;
+    }
+    .enroll img{
+        height:70%;
+        width: 70%;
+    }
+    .p{
+        font-size: .8rem;
+        padding-right: 20px;
+    }
+    .why-top > p{
+        font-size: 1.3rem;
+    }
+    .why-c p{
+        font-size: 1.4rem;
+    }
+    .why-c div{
+        display: none;
+    }
+    .scope-h{
+        width: 80%;
+    }
+    .scope-head{
+        font-size: 1.2rem;
+    }
+    .scope-con{
+        font-size: 1.6rem;
+    }
+    .scope-i img{
+        height: 15%;
+        width: 15%;
+    }
+    .read-more-container{
+        width: 90%;
+    }
+    .read-more-btn{
+        cursor: pointer;
+        font-weight: 600;
+        display: flex;
+        color: black;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .read-more-btn span{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+
 }
