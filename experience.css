@@ -96,6 +96,8 @@
     padding: 7px;
 }
 .country-container{
+        overflow: hidden;
+
     display: flex;
     padding: 100px 20px;
     background-repeat: no-repeat;
@@ -154,6 +156,7 @@
 .skills{
     margin-top: 100px;
     margin-bottom: 100px;
+
 }
 .skills > div{
     margin: 0 auto;
