@@ -264,15 +264,15 @@
 }
 .fff{
     background-color: rgb(22, 22, 23);
-    padding: 50px auto 40px;
+    padding: 100px auto 40px;
 }
 .top-f{
-    padding: 80px auto 40px;
+    padding: 10px auto 40px;
     display: flex;
     width: 90%;
-    justify-content: space-between;
 }
 .top-f > .logo{
+    margin-top: 100px;
     color: white;
     font-size: 1.5rem;
     font-weight: 600;
@@ -282,10 +282,9 @@
     font-weight: 600;
 }
 .botom-f{
-    margin: 0 auto;
+    margin: 40px auto 0;
     width: 90%;
     display: flex;
-    flex-direction: column;
     text-align: center;
     align-items: center;
 }
@@ -446,6 +445,7 @@
     }
     .top-f{
         flex-direction: column;
+        text-align: center;
         align-items: center;
     }
     .top-f > .logo{
@@ -455,5 +455,9 @@
         color: white;
         display: block;
         margin-top: 20px;
+    }
+    .botom-f{
+        flex-direction: column;
+        text-align: center;
     }
 }
