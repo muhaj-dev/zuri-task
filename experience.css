@@ -127,7 +127,7 @@ button{
     .modal-body button{
         width: 80%;
         font-size: 1.2rem;
-        }
+    }
 
 /* MODAL */
 /* MODAL */
@@ -479,6 +479,34 @@ button{
         margin: 0 auto;
         width: 65%;
     }
+    .modal-content {
+        padding: 50px 30px 50px;
+        width: 90%;
+      }
+      
+      .close{
+        margin-top: -20px;
+        font-size: 1rem;
+        right: -130px;
+      }
+      .modal-header div{
+        font-size: 2.2em;
+        line-height: 2.5rem;
+      }
+      
+      .modal-body {
+        padding: 20px 0px;
+        font-size: 1rem;
+        }
+        .modal-body p{
+            font-size: 1.2rem;
+            width: 90%;
+            margin: 4px auto 10px;
+        }
+        .modal-body button{
+            width: 90%;
+            font-size: 1.2rem;
+            }
 }
 
 @media screen and (max-width: 475px) {
