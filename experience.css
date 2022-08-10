@@ -68,7 +68,7 @@ button{
     padding: 100px 30px 60px;
     border-radius: 20px;
     border: 1px solid #888;
-    width: 50%;
+    width: 70%;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
@@ -88,7 +88,7 @@ button{
     to {top:0; opacity:1}
   }
   
-  
+
   .close:hover,
   .close:focus {
     color: #000;
@@ -101,12 +101,12 @@ button{
     color: white;
   }
   .close{
-    margin-top: -60px;
+    margin-top: -70px;
     font-size: 1.1rem;
     font-weight: 500;
+    text-align: right;
     position: relative;
-    top: -20px;
-    right: -140px;
+    bottom: 10px;
   }
   .modal-header div{
     color: #000;
@@ -481,13 +481,12 @@ button{
     }
     .modal-content {
         padding: 50px 30px 50px;
-        width: 90%;
+        width: 80%;
       }
       
       .close{
         margin-top: -20px;
         font-size: 1rem;
-        right: -130px;
       }
       .modal-header div{
         font-size: 2.2em;
@@ -510,6 +509,10 @@ button{
 }
 
 @media screen and (max-width: 475px) {
+
+    .modal-content {
+        width: 90%;
+      }
     .details{
         padding-left: 0;
     }
