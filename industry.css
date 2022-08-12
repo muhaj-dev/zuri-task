@@ -867,6 +867,8 @@
     
 }
 
+/* Tablet Screen Size */
+
 @media screen and (max-width: 769px) {
     .ind-head{
         padding: 15px 30px 6px;
@@ -957,6 +959,8 @@
     }
     
 }
+
+/* Mobile Screen Size */
 
 @media screen and (max-width: 475px) {
     .enroll div img{
