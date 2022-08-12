@@ -373,6 +373,7 @@ button{
     font-weight: 600;
 }
 .top-f > .logo .span{
+    /* margin-top: 100px; */
     font-size: 1.5rem;
     font-weight: 600;
 }
@@ -390,6 +391,7 @@ button{
     font-weight: 500;
 }
 .last{
+    margin-top: 100px;
     display: flex;
     justify-content: flex-end;
 }
@@ -531,6 +533,7 @@ button{
     }
     .nav-link{
         width: 50%;
+
     }
     .none{
         display: none;

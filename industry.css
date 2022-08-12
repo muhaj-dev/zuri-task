@@ -19,6 +19,9 @@
     align-items: center;
     margin-top: -10px;
 }
+.ind-head ul a{
+    text-decoration: none;
+}
 .enroll{
     display: flex;
     align-items: center;
@@ -117,8 +120,8 @@
     right: -20px;
 }
 .about{
-    margin: 100px auto 20px;
-    padding-top: 40px ;
+    margin: 120px auto 20px;
+    padding-top: 120px ;
     padding-bottom: 40px ;
     display: flex;
     border-top: 1px solid rgb(215, 213, 213);
@@ -127,7 +130,7 @@
 }
 .about-1{
     flex-basis: 40%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: rgb(55, 54, 54);
     font-weight: 700;
 }
@@ -136,12 +139,13 @@
     flex-grow: 1;
     width: 20%;
     text-align: right;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
 .about-2 a{
+    display: inline-block;
     text-decoration: underline;
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: rgb(116, 244, 69);
 }
 .about > .img{
@@ -166,15 +170,15 @@
     justify-content: flex-end;
 }
 .why-top > p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    word-spacing: 4px;
+    word-spacing: 2px;
 }
 .why-c{
     display: flex;
 }
 .why-c p{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: rgb(46, 46, 46);
     flex-basis: 60%;
     font-weight: 700;
@@ -456,13 +460,13 @@
     border-radius: 30px;
 }
 .que-b img{
-    width: 17%;
-    height: 17%; 
+    width: 20%;
+    height: 20%; 
 }
 .que-b p{
     color: white;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-top: 14px;
 }
 
@@ -700,13 +704,13 @@
         margin: 50px auto;
     }
     .why-top > p{
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     .why-c{
         flex-direction: column;
     }
     .why-c p{
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
     .why-c div{
         justify-content: flex-start;
@@ -723,7 +727,7 @@
     
     }
     .c-head{
-        width: 90%;
+        width: 45%;
         padding: 70px 40px;
     }
     .col-1{
