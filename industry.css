@@ -212,36 +212,35 @@
     position: relative;
     overflow: hidden;
     box-shadow: 0px 11px 22px rgba(163, 31, 10, 0.18);
+    transition: .2s linear;
 }
 .c-head:hover{
-    position: relative;
-    top: -30px;
-    transition: .3s ease-in-out;
+    transform: translateY(-6%);
 }
 .col-1{
-    border: 35px solid white;
+    border: 65px solid white;
 }
 .col-2{
-    border: 35px solid rgb(241, 222, 14);
+    border: 65px solid rgb(241, 222, 14);
 }
 .col-3{
-    border: 35px solid rgb(19, 167, 24);
+    border: 65px solid rgb(19, 167, 24);
 }
 .col-4{
-    border: 35px solid rgb(241, 93, 224);
+    border: 65px solid rgb(241, 93, 224);
 }
 .col-5{
-    border: 35px solid rgb(240, 166, 29);
+    border: 65px solid rgb(240, 166, 29);
 }
 .col-6{
-    border: 35px solid rgb(53, 94, 182);
+    border: 65px solid rgb(53, 94, 182);
 }
 .circle{
     position: absolute;
-    top: -80px;
-    right: -90px;
-    width: 200px;
-    height: 200px;
+    top: -120px;
+    right: -120px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 .count{
@@ -749,10 +748,10 @@
         border: 75px solid rgb(53, 94, 182);
     }
     .circle{
-        top: -140px;
-        right: -130px;
-        width: 350px;
-        height: 350px;
+        top: -120px;
+        right: -120px;
+        width: 300px;
+        height: 300px;
     }
 
     .help-wrap{
@@ -896,6 +895,30 @@
     .why-c div{
         display: none;
     }
+    .col-1{
+        border: 55px solid white;
+    }
+    .col-2{
+        border: 55px solid rgb(241, 222, 14);
+    }
+    .col-3{
+        border: 55px solid rgb(19, 167, 24);
+    }
+    .col-4{
+        border: 55px solid rgb(241, 93, 224);
+    }
+    .col-5{
+        border: 55px solid rgb(240, 166, 29);
+    }
+    .col-6{
+        border: 55px solid rgb(53, 94, 182);
+    }
+    .circle{
+        top: -100px;
+        right: -90px;
+        width: 250px;
+        height: 250px;
+    }
     .scope-h{
         width: 80%;
     }
@@ -1014,22 +1037,22 @@
         padding: 30px 40px;
     }
     .col-1{
-        border: 25px solid white;
+        border: 55px solid white;
     }
     .col-2{
-        border: 25px solid rgb(241, 222, 14);
+        border: 55px solid rgb(241, 222, 14);
     }
     .col-3{
-        border: 25px solid rgb(19, 167, 24);
+        border: 55px solid rgb(19, 167, 24);
     }
     .col-4{
-        border: 25px solid rgb(241, 93, 224);
+        border: 55px solid rgb(241, 93, 224);
     }
     .col-5{
-        border: 25px solid rgb(240, 166, 29);
+        border: 55px solid rgb(240, 166, 29);
     }
     .col-6{
-        border: 25px solid rgb(53, 94, 182);
+        border: 55px solid rgb(53, 94, 182);
     }
     .circle{
         top: -100px;
